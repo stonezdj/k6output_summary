@@ -18,7 +18,7 @@ jobs:
           echo "模拟构建..."
           # 这里写实际的 build 命令
           # 假设产物被上传到某个服务器并得到下载 URL
-          echo "https://my-artifact-server/downloads/package-v1.2.3.tar.gz" > artifact_url.txt
+          echo "https://my-artifact-server/downloads/package-v1.2.4.tar.gz" > artifact_url.txt
 
       - name: Checkout buildresult repo
         uses: actions/checkout@v4
