@@ -25,7 +25,7 @@ jobs:
         with:
           repository: stonezdj/buildresult
           path: buildresult
-          token: ${{ secrets.ZDJ_GITHUB_TOKEN }}   # Personal Access Token，需要有对 buildresult repo 的写权限
+          token: ${{ secrets.ZDJ_GITHUB_TOKEN }} 
 
       - name: Update buildresult.txt
         run: |
